@@ -91,15 +91,11 @@ def movies_with_directors_set(source)
   gross_per_studio = [
       { :title ["Jaws", “Munich”, “Duel”]}, :studio => "Universal", :worldwide_gross => 10 },
       { :title [“Avengers”,”Dhaka”]},:studio => "Universal", :worldwide_gross => 30 },
-      { :title [“Avator”, “Aliens”]},
-:studio => " Universal ", :worldwide_gross => 30 
-{ :title [“Crooklyn”, “Oldboy”]},:studio => "Universal", :worldwide_gross => 10 },
-8.	      { title [“Allied”, “Cast Away”]},
-1.	
-studio => "Universal", :worldwide_gross => 30 },
-      { :title [“Curdled” “Hostel”]},
-:studio => " Columbia", :worldwide_gross => 30 }
-{ :title :[“Silence”, “Casino”]}],
+      { :title [“Avator”, “Aliens”]},:studio => " Universal ", :worldwide_gross => 30 },
+      { :title [“Crooklyn”, “Oldboy”]},:studio => "Universal", :worldwide_gross => 10 },
+	    { :title [“Allied”, “Cast Away”]},:studio => "Universal", :worldwide_gross => 30 },
+      { :title [“Curdled” “Hostel”]},:studio => " Columbia", :worldwide_gross => 30 }
+      { :title :[“Silence”, “Casino”]}],
 
 :studio => "Columbia", :worldwide_gross => 30 }
 { :title :[“Twixt”, “Tetro”]}
