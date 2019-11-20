@@ -103,7 +103,7 @@ studio => "Universal", :worldwide_gross => 30 },
 { :title :[“Twixt”, “Tetro”]}
 
 :studio => "Columbia ", :worldwide_gross => 30 }
-}
+}.sum
 
 
 end
