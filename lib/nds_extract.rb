@@ -95,12 +95,8 @@ def movies_with_directors_set(source)
       { :title [“Crooklyn”, “Oldboy”]},:studio => "Universal", :worldwide_gross => 10 },
 	    { :title [“Allied”, “Cast Away”]},:studio => "Universal", :worldwide_gross => 30 },
       { :title [“Curdled” “Hostel”]},:studio => " Columbia", :worldwide_gross => 30 }
-      { :title :[“Silence”, “Casino”]}],
-
-:studio => "Columbia", :worldwide_gross => 30 }
-{ :title :[“Twixt”, “Tetro”]}
-
-:studio => "Columbia ", :worldwide_gross => 30 }
+      { :title :[“Silence”, “Casino”]},:studio => "Columbia", :worldwide_gross => 30 }
+      { :title :[“Twixt”, “Tetro”]}, :studio => "Columbia ", :worldwide_gross => 30 }
 }.sum
 
 
