@@ -49,14 +49,12 @@ def movies_with_director_key(name, movies_collection)
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
   director_name = ["Stepthen Spielberg”, “Russo Brothers”, "James Cameron","Spike Lee", “Robert Zemeckis”, “Quentin Tarantino”, "Martin Scorsese", "Francis Ford Coppola"]
-  1.	vending_machine = [[[{director_name: "Stepthen Spielberg”, movies_collection:[“Jaws”, “Munich”,”Duel”]},
-2.	{director_name: “Russo Brothers” movies_collection:[“Avengers”,”Dhaka”]},
-3.	{director_name: "James Cameron movies_collection:[“Avator”, “Aliens”]},
-4.	{director_name: "Spike Lee" movies_collection:[“Crooklyn”, “Oldboy”]},
-5.	{director_name: “Robert Zemeckis”: movies_collection:[“Allied”, “Cast Away”]},
+  
+  vending_machine = [[[{director_name: "Stepthen Spielberg”, movies_collection:[“Jaws”, “Munich”,”Duel”]},
+	{director_name: “Russo Brothers” movies_collection:[“Avengers”,”Dhaka”]},.	{director_name: "James Cameron movies_collection:[“Avator”, “Aliens”]},.	{director_name: "Spike Lee" movies_collection:[“Crooklyn”, “Oldboy”]},.	{director_name: “Robert Zemeckis”: movies_collection:[“Allied”, “Cast Away”]},
 {director_name: “Quentin Tarantino movies_collection:[“Curdled” “Hostel”]},
-6.	{director_name: "Martin Scorsese movies_collection:[“Silence”, “Casino”]}],
-7.	{director_name: "Francis Ford Coppola"movies_collection:[“Twixt”, “Tetro”]}]]]
+	{director_name: "Martin Scorsese movies_collection:[“Silence”, “Casino”]}],
+	{director_name: "Francis Ford Coppola"movies_collection:[“Twixt”, “Tetro”]}]]]
 
 end
 
@@ -86,7 +84,7 @@ def movies_with_directors_set(source)
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
-  gross = [
+  gross_per_studio = [
       { :title ["Jaws", “Munich”, “Duel”]}, :studio => "Universal", :worldwide_gross => 10 },
       { :title [“Avengers”,”Dhaka”]},:studio => "Universal", :worldwide_gross => 30 },
       { :title [“Avator”, “Aliens”]},
